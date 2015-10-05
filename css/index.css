@@ -1,0 +1,156 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 30px;
+  padding: 3vh;
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+a:link, a:visited, a:link:active, a:visited:active {
+  color: white;
+  text-decoration: none;
+}
+
+.section-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90vw;
+  text-align: center;
+}
+
+.overlay {
+  background-color: #000000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/*Site Navigation*/
+
+header {
+  color: white;
+  background-color: #849009;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.site-nav {
+  font-size: 20px;
+  padding: 18px;
+  height: 24px;
+  float: right;
+  vertical-align: center;
+}
+
+.site-link {
+  padding: 0em 2.5vw;
+}
+
+.header-spacer {
+  height: 60px;
+}
+
+/*Splash*/
+
+#splash {
+  color: white;
+  background-image: url(../assets/images/pawpaw.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 577px;
+}
+
+.splash-text {
+  color: white;
+  z-index: 1;
+}
+
+/*About*/
+
+#about {
+  color: #222222;
+  background-color: white;
+  min-height: 577px;
+}
+
+.portrait {
+  background-size: cover;
+  background-position: center;
+  margin-right: 5vw;
+  display: inline-block;
+  width: 30vw;
+  height: 30vw;
+}
+
+.profile {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*Portfolio*/
+
+#portfolio {
+  background-color: #D9DDAB;
+  min-height: 90vh;
+}
+
+.portfolio-piece {
+  margin: 1%;
+  width: 30%;
+  height: 16vw;
+  display: inline-block;
+  position: relative;
+}
+
+.portfolio-image {
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/*Contact*/
+
+#contact {
+  background-color: #E45F55;
+}
+
+/*Social Media Navigation*/
+
+footer {
+  color: white;
+  background-color: #849009;
+  height: 30vh;
+  text-align: center;
+  position: relative;
+}
+
+.social-nav {
+  padding-top: 0.7em;
+}
+
+.social-link {
+  font-size: 24px;
+  padding: 0em 0.5em;
+}
+
+.copyright {
+  margin: 1em;
+}
