@@ -13,66 +13,81 @@
 
     <header>
       <nav class="site-nav">
-        <a class="site-link">About</a>
-        <a class="site-link">Resumé</a>
-        <a class="site-link">Portfolio</a>
-        <a class="site-link">Contact</a>
+        <a class="site-link home">Home</a>
+        <a class="site-link about">About</a>
+        <a class="site-link portfolio">Portfolio</a>
+        <a class="site-link resume" href="assets/pdfs/resume.pdf">Resumé</a>
+        <a class="site-link contact">Contact</a>
       </nav>
     </header>
     <div class="header-spacer">
     </div>
 
     <section id="splash">
-      <div class="overlay">
+      <div class="splash-image">
+        <div class="overlay">
+        </div>
       </div>
       <div class="section-container">
+        <h1 class="name">Peter McNeary</h1>
+        <h2 class="splash-text">Functional.  Modular.  Efficient.</h2>
       </div>
     </section>
 
     <section id="about">
       <div class="section-container">
-        <h1>About Me</h1>
-        <div class="portrait" style="background-image: url(assets/images/portrait.png)">
-        </div>
-        <div class="profile">
-          <p>
-            Blah blah blah blah blah
-          </p>
+        <h1 class="about-heading">About Me</h1>
+        <div class="about-details">
+          <div class="portrait" style="background-image: url(assets/images/portrait.png)">
+          </div>
+          <div class="profile">
+            <p class="about-text">
+              I'm a web developer specializing in JavaScript based in Durham, North Carolina.  A recent graduate of The Iron Yard in Durham, I enjoy coding, problem-solving, software architecture and functional design.
+            </p>
+            <p class="about-text-2">
+              When I'm not coding, I like to work with plants, study ecological design, read, and be outside.  I'm always on the lookout for elegant design, both virtual and natural.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="portfolio">
       <div class="section-container">
-        <h1>Portfolio</h1>
-        <a class="portfolio-piece" href="http://plmcneary.github.io/smashing_academy">
-          <div class="portfolio-image" style="background-image: url(assets/images/smashing_academy.png)">
-          </div>
-        </a>
-        <a class="portfolio-piece" href="http://plmcneary.github.io/human_guessing">
-          <div class="portfolio-image" style="background-image: url(assets/images/guessing.png)">
-          </div>
-        </a>
-        <a class="portfolio-piece" href="http://plmcneary.github.io/memory">
-          <div class="portfolio-image" style="background-image: url(assets/images/memory.png)">
-          </div>
-        </a>
-        <a class="portfolio-piece" href="http://plmcneary.github.io/user_management">
-          <div class="portfolio-image" style="background-image: url(assets/images/user_management.png)">
-          </div>
-        </a>
-        <a class="portfolio-piece" href="http://plmcneary.github.io/appointments">
-          <div class="portfolio-image" style="background-image: url(assets/images/appointments.png)">
-          </div>
-        </a>
-        <a class="portfolio-piece" href="https://lodial.herokuapp.com/">
-          <div class="portfolio-image" style="background-image: url(assets/images/lodial.png)">
-          </div>
-        </a>
+        <h1 class="portfolio-heading">Portfolio</h1><br>
+        <div class="portfolio-gallery">
+          <a class="portfolio-piece" href="http://plmcneary.github.io/smashing_academy">
+            <div class="portfolio-image" style="background-image: url(assets/images/smashing_academy.png)">
+            </div>
+          </a>
+          <a class="portfolio-piece" href="http://plmcneary.github.io/human_guessing">
+            <div class="portfolio-image" style="background-image: url(assets/images/guessing.png)">
+            </div>
+          </a>
+          <a class="portfolio-piece" href="http://plmcneary.github.io/memory">
+            <div class="portfolio-image" style="background-image: url(assets/images/memory.png)">
+            </div>
+          </a>
+          <a class="portfolio-piece" href="http://plmcneary.github.io/user_management">
+            <div class="portfolio-image" style="background-image: url(assets/images/user_management.png)">
+            </div>
+          </a>
+          <a class="portfolio-piece" href="http://plmcneary.github.io/appointments">
+            <div class="portfolio-image" style="background-image: url(assets/images/appointments.png)">
+            </div>
+          </a>
+          <a class="portfolio-piece" href="https://lodial.herokuapp.com/">
+            <div class="portfolio-image" style="background-image: url(assets/images/lodial.png)">
+            </div>
+          </a>
+        </div>
       </div>
     </section>
 
-    <footer>
+    <footer id="contact">
+      <p class="contact-text">
+        If you'd like to connect, send me an email or follow me on social media.
+      </p>
       <nav class="social-nav">
         <a class="social-link fa fa-github-square" href="https://github.com/plmcneary"></a>
         <a class="social-link fa fa-linkedin-square" href="https://www.linkedin.com/pub/peter-mcneary/2a/107/627"></a>
@@ -84,7 +99,8 @@
       </p>
     </footer>
 
-    <script></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/scroll.js"></script>
 
   </body>
 </html>

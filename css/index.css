@@ -4,9 +4,12 @@ body {
 }
 
 h1 {
-  font-size: 30px;
-  padding: 3vh;
-  margin: 0px;
+  font-size: 3rem;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  border-bottom: solid 3px #849009;
+  display: inline;
 }
 
 p {
@@ -15,24 +18,16 @@ p {
 
 a:link, a:visited, a:link:active, a:visited:active {
   color: white;
+  cursor: pointer;
   text-decoration: none;
 }
 
 .section-container {
+  padding: 4rem 0px;
   margin-right: auto;
   margin-left: auto;
   width: 90vw;
   text-align: center;
-}
-
-.overlay {
-  background-color: #000000;
-  opacity: 0.5;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
 }
 
 /*Site Navigation*/
@@ -49,33 +44,67 @@ header {
 }
 
 .site-nav {
-  font-size: 20px;
-  padding: 18px;
-  height: 24px;
+  height: 60px;
   float: right;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 .site-link {
-  padding: 0em 2.5vw;
+  font-size: 20px;
+  height: 24px;
+  padding: 18px 2.5vw;
+  cursor: pointer;
+  display: inline-block;
 }
 
-.header-spacer {
-  height: 60px;
+.site-link:hover {
+  color: #849009;
+  background-color: #D9DDAB;
 }
 
 /*Splash*/
 
 #splash {
   color: white;
-  background-image: url(../assets/images/pawpaw.png);
-  background-size: cover;
-  background-position: center;
+  padding-top: 60px;
   min-height: 577px;
 }
 
+.splash-image {
+  background-image: url(../assets/images/pawpaw.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 60px;
+  min-height: 577px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.overlay {
+  background-color: #000000;
+  opacity: 0.5;
+  min-height: 577px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.name {
+  color: #D9DDAB;
+  border-bottom: none;
+}
+
 .splash-text {
-  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #D9DDAB;
+  padding: 3rem 0rem;
   z-index: 1;
 }
 
@@ -90,22 +119,39 @@ header {
 .portrait {
   background-size: cover;
   background-position: center;
-  margin-right: 5vw;
-  display: inline-block;
-  width: 30vw;
-  height: 30vw;
+  margin: 2rem auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
 }
 
 .profile {
-  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
   vertical-align: top;
+  max-width: 730px;
+}
+
+.about-text {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.about-text-2 {
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  line-height: 2rem;
 }
 
 /*Portfolio*/
 
 #portfolio {
   background-color: #D9DDAB;
-  min-height: 90vh;
+  min-height: 577px;
+}
+
+.portfolio-gallery {
+  padding-top: 4rem;
 }
 
 .portfolio-piece {
@@ -130,27 +176,28 @@ header {
 
 #contact {
   background-color: #E45F55;
-}
-
-/*Social Media Navigation*/
-
-footer {
   color: white;
   background-color: #849009;
-  height: 30vh;
+  padding: 4.2rem 0px;
+  height: 138px;
   text-align: center;
   position: relative;
 }
 
-.social-nav {
-  padding-top: 0.7em;
+.contact-text {
+  font-size: 18px;
+  height: 20px;
+  padding-bottom: 15px;
 }
 
 .social-link {
-  font-size: 24px;
-  padding: 0em 0.5em;
+  font-size: 30px;
+  padding: 10px 0.5em 33px;
+  height: 32px;
 }
 
 .copyright {
-  margin: 1em;
+  font-size: 16px;
+  padding-top: 10px;
+  height: 18px;
 }
