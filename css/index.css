@@ -43,6 +43,14 @@ header {
   z-index: 1;
 }
 
+.header-name {
+  padding: 16px 0px 16px 2.5vw;
+  margin: 0px;
+  height: 60px;
+  float: left;
+  vertical-align: middle;
+}
+
 .site-nav {
   height: 60px;
   float: right;
@@ -95,16 +103,15 @@ header {
   left: 0;
 }
 
-.name {
-  color: #D9DDAB;
-  border-bottom: none;
+.splash-container {
+  padding: 35vh 0vh;
 }
 
 .splash-text {
   font-size: 5rem;
   font-weight: bold;
   color: #D9DDAB;
-  padding: 3rem 0rem;
+  border-bottom: none;
   z-index: 1;
 }
 
