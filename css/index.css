@@ -30,181 +30,385 @@ a:link, a:visited, a:link:active, a:visited:active {
   text-align: center;
 }
 
-/*Site Navigation*/
 
-header {
-  color: white;
-  background-color: #849009;
-  height: 60px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
+
+
+/*Mobile*/
+
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px) {
+
+    /*Site Navigation*/
+
+    header {
+      color: white;
+      background-color: #849009;
+      height: 60px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
+
+    .header-name {
+      padding: 16px 0px 16px 2.5vw;
+      margin: 0px;
+      height: 60px;
+      float: left;
+      vertical-align: middle;
+    }
+
+    .site-nav {
+      height: 60px;
+      float: right;
+      vertical-align: middle;
+    }
+
+    .site-link {
+      font-size: 20px;
+      height: 24px;
+      padding: 18px 2.5vw;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    .site-link:hover {
+      color: #849009;
+      background-color: #D9DDAB;
+    }
+
+    /*Splash*/
+
+    #splash {
+      color: white;
+      padding-top: 60px;
+      min-height: 100vh;
+    }
+
+    .splash-image {
+      background-image: url(../assets/images/pawpaw.png);
+      background-size: cover;
+      background-position: center;
+      padding-top: 60px;
+      min-height: 100vh;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .overlay {
+      background-color: #000000;
+      opacity: 0.5;
+      min-height: 100vh;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    .splash-container {
+      padding: 35vh 0vh;
+    }
+
+    .splash-text {
+      font-size: 5rem;
+      font-weight: bold;
+      color: #D9DDAB;
+      border-bottom: none;
+      z-index: 1;
+    }
+
+    /*About*/
+
+    #about {
+      color: #222222;
+      background-color: white;
+      min-height: 577px;
+    }
+
+    .portrait {
+      background-size: cover;
+      background-position: center;
+      margin: 2rem auto;
+      width: 120px;
+      height: 120px;
+      border-radius: 60px;
+    }
+
+    .profile {
+      margin-right: auto;
+      margin-left: auto;
+      vertical-align: top;
+      max-width: 730px;
+    }
+
+    .about-text {
+      font-size: 1.3rem;
+      line-height: 2rem;
+    }
+
+    .about-text-2 {
+      font-size: 1.3rem;
+      margin-top: 1.5rem;
+      line-height: 2rem;
+    }
+
+    /*Portfolio*/
+
+    #portfolio {
+      background-color: #D9DDAB;
+      min-height: 577px;
+    }
+
+    .portfolio-gallery {
+      padding-top: 4rem;
+    }
+
+    .portfolio-piece {
+      margin: 1%;
+      width: 30%;
+      height: 16vw;
+      display: inline-block;
+      position: relative;
+    }
+
+    .portfolio-image {
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    /*Contact*/
+
+    #contact {
+      background-color: #E45F55;
+      color: white;
+      background-color: #849009;
+      padding: 4.2rem 0px;
+      height: 138px;
+      text-align: center;
+      position: relative;
+    }
+
+    .contact-text {
+      font-size: 18px;
+      height: 20px;
+      padding: 0px 15px 15px 15px;
+    }
+
+    .social-link {
+      font-size: 30px;
+      padding: 10px 0.5em 33px;
+      height: 32px;
+    }
+
+    .copyright {
+      font-size: 16px;
+      padding-top: 10px;
+      height: 18px;
+    }
+
 }
 
-.header-name {
-  padding: 16px 0px 16px 2.5vw;
-  margin: 0px;
-  height: 60px;
-  float: left;
-  vertical-align: middle;
-}
 
-.site-nav {
-  height: 60px;
-  float: right;
-  vertical-align: middle;
-}
 
-.site-link {
-  font-size: 20px;
-  height: 24px;
-  padding: 18px 2.5vw;
-  cursor: pointer;
-  display: inline-block;
-}
 
-.site-link:hover {
-  color: #849009;
-  background-color: #D9DDAB;
-}
 
-/*Splash*/
+/*Desktop*/
 
-#splash {
-  color: white;
-  padding-top: 60px;
-  min-height: 577px;
-}
 
-.splash-image {
-  background-image: url(../assets/images/pawpaw.png);
-  background-size: cover;
-  background-position: center;
-  padding-top: 60px;
-  min-height: 577px;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-}
+@media only screen
+  and (min-device-width: 481px)
+  and (-webkit-min-device-pixel-ratio: 2) {
 
-.overlay {
-  background-color: #000000;
-  opacity: 0.5;
-  min-height: 577px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
+    /*Site Navigation*/
 
-.splash-container {
-  padding: 35vh 0vh;
-}
+    header {
+      color: white;
+      background-color: #849009;
+      height: 60px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
 
-.splash-text {
-  font-size: 5rem;
-  font-weight: bold;
-  color: #D9DDAB;
-  border-bottom: none;
-  z-index: 1;
-}
+    .header-name {
+      padding: 16px 0px 16px 2.5vw;
+      margin: 0px;
+      height: 60px;
+      float: left;
+      vertical-align: middle;
+    }
 
-/*About*/
+    .site-nav {
+      height: 60px;
+      float: right;
+      vertical-align: middle;
+    }
 
-#about {
-  color: #222222;
-  background-color: white;
-  min-height: 577px;
-}
+    .site-link {
+      font-size: 20px;
+      height: 24px;
+      padding: 18px 2.5vw;
+      cursor: pointer;
+      display: inline-block;
+    }
 
-.portrait {
-  background-size: cover;
-  background-position: center;
-  margin: 2rem auto;
-  width: 120px;
-  height: 120px;
-  border-radius: 60px;
-}
+    .site-link:hover {
+      color: #849009;
+      background-color: #D9DDAB;
+    }
 
-.profile {
-  margin-right: auto;
-  margin-left: auto;
-  vertical-align: top;
-  max-width: 730px;
-}
+    /*Splash*/
 
-.about-text {
-  font-size: 1.3rem;
-  line-height: 2rem;
-}
+    #splash {
+      color: white;
+      padding-top: 60px;
+      min-height: 577px;
+    }
 
-.about-text-2 {
-  font-size: 1.3rem;
-  margin-top: 1.5rem;
-  line-height: 2rem;
-}
+    .splash-image {
+      background-image: url(../assets/images/pawpaw.png);
+      background-size: cover;
+      background-position: center;
+      padding-top: 60px;
+      min-height: 577px;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+    }
 
-/*Portfolio*/
+    .overlay {
+      background-color: #000000;
+      opacity: 0.5;
+      min-height: 577px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
 
-#portfolio {
-  background-color: #D9DDAB;
-  min-height: 577px;
-}
+    .splash-container {
+      padding: 35vh 0vh;
+    }
 
-.portfolio-gallery {
-  padding-top: 4rem;
-}
+    .splash-text {
+      font-size: 5rem;
+      font-weight: bold;
+      color: #D9DDAB;
+      border-bottom: none;
+      z-index: 1;
+    }
 
-.portfolio-piece {
-  margin: 1%;
-  width: 30%;
-  height: 16vw;
-  display: inline-block;
-  position: relative;
-}
+    /*About*/
 
-.portfolio-image {
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
+    #about {
+      color: #222222;
+      background-color: white;
+      min-height: 577px;
+    }
 
-/*Contact*/
+    .portrait {
+      background-size: cover;
+      background-position: center;
+      margin: 2rem auto;
+      width: 120px;
+      height: 120px;
+      border-radius: 60px;
+    }
 
-#contact {
-  background-color: #E45F55;
-  color: white;
-  background-color: #849009;
-  padding: 4.2rem 0px;
-  height: 138px;
-  text-align: center;
-  position: relative;
-}
+    .profile {
+      margin-right: auto;
+      margin-left: auto;
+      vertical-align: top;
+      max-width: 730px;
+    }
 
-.contact-text {
-  font-size: 18px;
-  height: 20px;
-  padding: 0px 15px 15px 15px;
-}
+    .about-text {
+      font-size: 1.3rem;
+      line-height: 2rem;
+    }
 
-.social-link {
-  font-size: 30px;
-  padding: 10px 0.5em 33px;
-  height: 32px;
-}
+    .about-text-2 {
+      font-size: 1.3rem;
+      margin-top: 1.5rem;
+      line-height: 2rem;
+    }
 
-.copyright {
-  font-size: 16px;
-  padding-top: 10px;
-  height: 18px;
+    /*Portfolio*/
+
+    #portfolio {
+      background-color: #D9DDAB;
+      min-height: 577px;
+    }
+
+    .portfolio-gallery {
+      padding-top: 4rem;
+    }
+
+    .portfolio-piece {
+      margin: 1%;
+      width: 30%;
+      height: 16vw;
+      display: inline-block;
+      position: relative;
+    }
+
+    .portfolio-image {
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    /*Contact*/
+
+    #contact {
+      background-color: #E45F55;
+      color: white;
+      background-color: #849009;
+      padding: 4.2rem 0px;
+      height: 138px;
+      text-align: center;
+      position: relative;
+    }
+
+    .contact-text {
+      font-size: 18px;
+      height: 20px;
+      padding: 0px 15px 15px 15px;
+    }
+
+    .social-link {
+      font-size: 30px;
+      padding: 10px 0.5em 33px;
+      height: 32px;
+    }
+
+    .copyright {
+      font-size: 16px;
+      padding-top: 10px;
+      height: 18px;
+    }
+
 }
