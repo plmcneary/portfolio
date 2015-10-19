@@ -84,16 +84,14 @@ a:link, a:visited, a:link:active, a:visited:active {
 
     #splash {
       color: white;
-      padding-top: 60px;
-      min-height: 100vh;
+      min-height: 100.5vh;
     }
 
     .splash-image {
       background-image: url(../assets/images/pawpaw.png);
       background-size: cover;
       background-position: center;
-      padding-top: 60px;
-      min-height: 100vh;
+      min-height: 100.5vh;
       position: fixed;
       top: 0;
       right: 0;
@@ -105,7 +103,7 @@ a:link, a:visited, a:link:active, a:visited:active {
     .overlay {
       background-color: #000000;
       opacity: 0.5;
-      min-height: 100vh;
+      min-height: 100.5vh;
       position: absolute;
       top: 0;
       right: 0;
