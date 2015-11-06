@@ -88,7 +88,7 @@ a:link, a:visited, a:link:active, a:visited:active {
     }
 
     .splash-image {
-      background-image: url(../assets/images/pawpaw.png);
+      background-image: url(../assets/images/pawpaw.jpg);
       background-size: cover;
       background-position: center;
       min-height: 100.5vh;
@@ -279,7 +279,7 @@ a:link, a:visited, a:link:active, a:visited:active {
     }
 
     .splash-image {
-      background-image: url(../assets/images/pawpaw.png);
+      background-image: url(../assets/images/pawpaw.jpg);
       background-size: cover;
       background-position: center;
       padding-top: 60px;
