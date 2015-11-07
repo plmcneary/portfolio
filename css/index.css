@@ -274,8 +274,7 @@ a:link, a:visited, a:link:active, a:visited:active {
 
     #splash {
       color: white;
-      padding-top: 60px;
-      min-height: 577px;
+      min-height: 100vh;
     }
 
     .splash-image {
@@ -304,7 +303,7 @@ a:link, a:visited, a:link:active, a:visited:active {
     }
 
     .splash-container {
-      padding: 35vh 0vh;
+      padding: 45vh 0vh;
     }
 
     .splash-text {
@@ -320,13 +319,13 @@ a:link, a:visited, a:link:active, a:visited:active {
     #about {
       color: #222222;
       background-color: white;
-      min-height: 577px;
+      min-height: 100vh;
     }
 
     .portrait {
       background-size: cover;
       background-position: center;
-      margin: 2rem auto;
+      margin: 2.5rem auto;
       width: 120px;
       height: 120px;
       border-radius: 60px;
@@ -341,20 +340,20 @@ a:link, a:visited, a:link:active, a:visited:active {
 
     .about-text {
       font-size: 1.3rem;
-      line-height: 2rem;
+      line-height: 2.5rem;
     }
 
     .about-text-2 {
       font-size: 1.3rem;
-      margin-top: 1.5rem;
-      line-height: 2rem;
+      margin-top: 2rem;
+      line-height: 2.5rem;
     }
 
     /*Portfolio*/
 
     #portfolio {
       background-color: #D9DDAB;
-      min-height: 577px;
+      min-height: 100vh;
     }
 
     .portfolio-gallery {
