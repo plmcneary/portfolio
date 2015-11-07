@@ -206,6 +206,7 @@ a:link, a:visited, a:link:active, a:visited:active {
     }
 
     .social-link {
+      color: white;
       font-size: 30px;
       padding: 10px 0.5em 33px;
       height: 32px;
