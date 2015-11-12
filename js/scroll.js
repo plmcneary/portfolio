@@ -1,9 +1,10 @@
 (function () {
-  var aboutHeight = $('#about').css('min-height').match(/[0-9]+/)[0] - 60 + "px";
-  $('#about').css({'min-height': aboutHeight});
 
-  var portfolioHeight = $('#portfolio').css('min-height').match(/[0-9]+/)[0] - 60 + "px";
-  $('#portfolio').css({'min-height': portfolioHeight});
+  var aboutMinHeight = $('#about').css('min-height').match(/[0-9]+/)[0] - 60 + "px";
+  $('#about').css({'min-height': aboutMinHeight});
+
+  var portfolioMinHeight = $('#portfolio').css('min-height').match(/[0-9]+/)[0] - 60 + "px";
+  $('#portfolio').css({'min-height': portfolioMinHeight});
 
   $('.home').on('click', function() {
     $('html, body').animate({
@@ -13,19 +14,19 @@
 
   $('.about').on('click', function() {
     $('html, body').animate({
-        scrollTop: $("#about").offset().top - 59
+        scrollTop: $("#about").offset().top - 60
     }, 'slow');
   })
 
   $('.portfolio').on('click', function() {
     $('html, body').animate({
-        scrollTop: $("#portfolio").offset().top - 59
+        scrollTop: $("#portfolio").offset().top - 60
     }, 'slow');
   })
 
   $('.contact').on('click', function() {
     $('html, body').animate({
-        scrollTop: $("#contact").offset().top - 59
+        scrollTop: $("#contact").offset().top - 60
     }, 'slow');
   })
 })();

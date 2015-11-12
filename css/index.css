@@ -304,7 +304,7 @@ a:link, a:visited, a:link:active, a:visited:active {
     }
 
     .splash-container {
-      padding: 45vh 0vh;
+      padding: 40vh 0vh;
     }
 
     .splash-text {
@@ -312,6 +312,8 @@ a:link, a:visited, a:link:active, a:visited:active {
       font-weight: bold;
       color: #D9DDAB;
       border-bottom: none;
+      margin-top: 0rem;
+      margin-bottom: 0rem;
       z-index: 1;
     }
 
