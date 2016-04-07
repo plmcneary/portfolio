@@ -228,8 +228,7 @@ a:link, a:visited, a:link:active, a:visited:active {
 
 
 @media only screen
-  and (min-device-width: 481px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (min-device-width: 481px) {
 
     /*Site Navigation*/
 
